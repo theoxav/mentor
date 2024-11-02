@@ -1,8 +1,9 @@
-export type InterfaceSubject = {
+export type SubjectInterface = {
   id: number;
   name: string;
+  levelId: number;
 };
 
-export type InterfacePostSubject = {
+export type PostSubjectInterface = {
   name: string;
 };
